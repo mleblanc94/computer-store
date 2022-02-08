@@ -1,14 +1,13 @@
 import React from 'react';
-import alienware from './alienware.avif';
 import './Card.css'
 
-const Card = () => {
+const Card = ({name, cost, image}) => {
     return(
-        <div className="bg-dark-green dib br3 pa3 ma2 grow bw2 shadow-5">
-            <img className="center" alt="item" src={alienware}/>
+        <div className="tc bg-dark-green dib br3 pa3 ma2 grow bw2 shadow-5">
+            <img className="center" alt="item" src={image}/>
             <div>
-                <h2>Alienware Computer</h2>
-                <h4>$3,640.67</h4>
+                <p>{name}</p>
+                <h4>{cost}</h4>
             </div>
         </div>
     );

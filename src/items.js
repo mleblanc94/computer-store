@@ -14,19 +14,19 @@ export const items = [
  {   id: 1,
      category: "PC", 
      image: {alienware},
-     name: "Alienware Aurora R13 Gaming PC - 1 TB 7200RPM 256GB NVMe SSD - 16GB Dual Channel DDR5 - NVIDIA GeForce 3060 Ti 8GB",
+     name: "Alienware Aurora R13 Gaming PC",
      cost: "$2,192.41"
  },
  {   id: 2,
     category: "PC",
     image: {digitalStorm},
-    name: "Digital Storm Lumos Gaming PC - 2TB 7200RPM Storage - 16GB DDR4 Memory - NVIDIA Graphics",
+    name: "Digital Storm Lumos Gaming PC",
     cost: "$1,672.00"
 },
 {   id: 3,
     category: "PC",
     image: {legionTower},
-    name: "Legion Tower 5 (AMD) - 1TB SSD Storage RTX 3060 - NVIDIA® GeForce® RTX™ 3060 12GB",
+    name: "Legion Tower 5 (AMD)",
     cost: "$1,629.99"
 },
 {   id: 4,
@@ -70,5 +70,5 @@ export const items = [
     image: {gamingHeadset2},
     name: "HyperX Cloud Flight - Wireless Gaming Headset",
     cost: "$139.99"
-},
+}
 ]

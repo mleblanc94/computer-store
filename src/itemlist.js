@@ -2,10 +2,14 @@ import React from 'react';
 import Card from './Card';
 
 const Itemlist = ({ items }) => {
+    const itemComponent = items.map((item, i) => {
+        return (
+            <Card name={items[i].name} cost={items[i].cost} image={items[i].image} />
+        )
+    })
     return (
     <div>
-        <Card name={items[0].name} cost={items[0].cost} image={items[0].image} />
-
+        {itemComponent}
     </div>
     );
 }

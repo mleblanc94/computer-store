@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
-import Itemlist from './itemlist'
 import 'tachyons';
-import { items } from './items';
 
 ReactDOM.render(
     <App />,document.getElementById('root')

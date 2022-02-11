@@ -17,19 +17,18 @@ class App extends React.Component {
     }
 
     onSearchChange = (event) => {
-        this.setState({ searchfield: event.target.value })
-        const filteredItems = this.state.items.filter(item => {
-            return item.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
-        })
-        console.log(filteredItems);
+        this.setState({ searchfield: event.target.value })  
     }
 
     render() {
+        const filteredItems = this.state.items.filter(item => {
+            return item.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
+        })
     return (
         <div className='tc'>
             <h1>Mike's Computer Store</h1>
             <Searchbox searchChange={this.onSearchChange}/>
-            <Itemlist items={this.state.items}/>
+            <Itemlist items={filteredItems}/>
         </div>
     )
     }

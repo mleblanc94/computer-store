@@ -1,0 +1,12 @@
+.nav {
+    background: black;
+    color: white;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    text-align: left;
+    margin: 0px 0px 0px 10px;
+}

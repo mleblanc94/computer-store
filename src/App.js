@@ -2,6 +2,7 @@ import React from 'react';
 import Itemlist from './itemlist';
 import Searchbox from './searchbox.js';
 import { items } from './items';
+import './App.css';
 
 const state = {
     
@@ -26,7 +27,9 @@ class App extends React.Component {
         })
     return (
         <div className='tc'>
-            <h1>Mike's Computer Store</h1>
+            <div className="nav">
+                <h1>Mike's Computer Store</h1>
+            </div>
             <Searchbox searchChange={this.onSearchChange}/>
             <Itemlist items={filteredItems}/>
         </div>

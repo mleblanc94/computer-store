@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Shadows+Into+Light&display=swap');
+
 img {
     height: 250px;
     width: auto;
+}
+
+.fonts {
+    font-family: 'Abril Fatface', cursive;
 }

@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+
 .nav {
     background: black;
     color: white;
     height: 10vh;
     display: flex;
     align-items: center;
+    font-family: 'Libre Bodoni', serif;
 }
 
 h1 {
-    text-align: left;
-    margin: 0px 0px 0px 10px;
+    text-align: center;
+    margin: 0px 40px;
 }

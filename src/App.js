@@ -29,7 +29,7 @@ class App extends React.Component {
         <div className='tc'>
             <div className="nav">
                 <h1>Mike's Computer Store</h1>
-                <a src=""><h2>CART</h2></a>
+                <a href="google.com"><h2>CART</h2></a>
             </div>
             <Searchbox searchChange={this.onSearchChange}/>
             <Itemlist items={filteredItems}/>
